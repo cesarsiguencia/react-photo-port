@@ -3,6 +3,7 @@ import React, {useState} from 'react'
 import About from './components/About'
 import Nav from './components/Nav'
 import Gallery from './components/Gallery';
+import ContactForm from './components/Contact';
 // import SomeComponent from './components/Timer';
 // import ClickCounter from './components/Timer';
 
@@ -48,6 +49,7 @@ function App() {
       <main>
         {/* <SomeComponent></SomeComponent> */}
         {/* <ClickCounter></ClickCounter> */}
+        <ContactForm></ContactForm>
         <Gallery currentCategory={currentCategory}></Gallery>
         <About></About>
       </main>
