@@ -1,6 +1,6 @@
 // import {useState} from 'react'
 
-function PhotoList( {category}){
+function PhotoList({category}){
     const photos = [
         {
           name: 'Grocery aisle',

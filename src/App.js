@@ -1,5 +1,5 @@
 import React, {useState} from 'react'
-import './App.css';
+// import './App.css';
 import About from './components/About'
 import Nav from './components/Nav'
 import Gallery from './components/Gallery';
@@ -35,7 +35,9 @@ function App() {
     },
   ]
 
-  const [currentCategory, setCurrentCategory] = useState(categories[0])
+  const i = 0
+  const [currentCategory, setCurrentCategory] = useState(categories[i])
+  
   return (
     <div>
       <Nav 

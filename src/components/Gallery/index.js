@@ -11,7 +11,7 @@ function Gallery( {currentCategory }){
             <p>
                 {description}
             </p>
-            <PhotoList category={currentCategory.name}></PhotoList>
+            <PhotoList category={name}></PhotoList>
         </section>
     )
 }
