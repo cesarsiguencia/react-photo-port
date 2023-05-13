@@ -1,6 +1,7 @@
 import React, {useEffect} from 'react'
 import { capitalizeFirstLetter } from '../../utils/helpers'
 
+
 const Nav = (props) => {
     const{
         categories,
@@ -15,9 +16,9 @@ const Nav = (props) => {
     }, [currentCategory])
 
     return (
-        <header className='flex-row px-1'>s
+        <header className='flex-row px-1'>
             <h2>
-                <a data-testid="link"  href="https://cesarsiguencia.github.io/react-photo-port/">
+                <a href="react-photo-port/">
                     <span role='img' aria-label='camera'>📸</span> Oh Snap!
                 </a>
             </h2>
