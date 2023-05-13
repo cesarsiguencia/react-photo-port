@@ -1,4 +1,4 @@
-import React, {useState} from 'react'
+import React, { useState } from 'react'
 // import './App.css';
 import About from './components/About'
 import Nav from './components/Nav'
@@ -36,16 +36,14 @@ function App() {
     },
   ]
 
-  const[contactSelected, setContactSelected] = useState(false)
-
-
+  const [contactSelected, setContactSelected] = useState(false)
 
   const i = 0
   const [currentCategory, setCurrentCategory] = useState(categories[i])
-  
+
   return (
     <div>
-      <Nav 
+      <Nav
         categories={categories}
         setCurrentCategory={setCurrentCategory}
         currentCategory={currentCategory}
@@ -56,11 +54,15 @@ function App() {
 
         {!contactSelected ? (
           <>
-            <Gallery currentCategory={currentCategory}></Gallery>
-            <About></About>
+            <Gallery
+              currentCategory={currentCategory}>
+            </Gallery>
+            <About>
+            </About>
           </>
         ) : (
-          <ContactForm></ContactForm>
+          <ContactForm>
+          </ContactForm>
         )}
 
       </main>

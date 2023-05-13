@@ -23,11 +23,13 @@ const Nav = (props) => {
             </h2>
             <nav>
                 <ul className="flex-row">
+                    
                     <li className="mx-2">
                         <a data-testid="about" href="#about" onClick={() => setContactSelected(false)}>
                             About me
                         </a>
                     </li>
+
                     <li className={`mx-2 ${contactSelected && 'navActive'}`}>
                         <span onClick={() => setContactSelected(true)}>Contact</span>
                     </li>
