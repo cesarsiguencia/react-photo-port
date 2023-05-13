@@ -15,9 +15,9 @@ const Nav = (props) => {
     }, [currentCategory])
 
     return (
-        <header className='flex-row px-1'>
+        <header className='flex-row px-1'>s
             <h2>
-                <a data-testid="link"  href='/react-photo-port'>
+                <a data-testid="link"  href="https://cesarsiguencia.github.io/react-photo-port/">
                     <span role='img' aria-label='camera'>📸</span> Oh Snap!
                 </a>
             </h2>
