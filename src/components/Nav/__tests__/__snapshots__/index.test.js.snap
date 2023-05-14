@@ -8,7 +8,7 @@ exports[`Nav component matches snapshot 1`] = `
     <h2>
       <a
         data-testid="link"
-        href="/"
+        href="react-photo-port/"
       >
         <span
           aria-label="camera"
@@ -34,7 +34,7 @@ exports[`Nav component matches snapshot 1`] = `
           </a>
         </li>
         <li
-          class="mx-2 undefined"
+          class="mx-2 navActive"
         >
           <span>
             Contact

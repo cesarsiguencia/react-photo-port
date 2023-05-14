@@ -1,3 +1,4 @@
+import React from 'react'
 import { render, cleanup, fireEvent } from '@testing-library/react';
 import '@testing-library/jest-dom/extend-expect';
 import Modal from '..';
@@ -31,7 +32,7 @@ describe('Modal component', () => {
 })
 
 describe('Click Event', () => {
-  it('calls toggleModal handler', () => {
+  it('calls onClose handler', () => {
     const { getByText } = render(<Modal
       toggleModal={mockToggleModal}
       currentPhoto={currentPhoto}
